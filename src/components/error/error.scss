@@ -1,0 +1,21 @@
+.error {
+  align-items: center;
+  text-align: center;
+}
+.error-img {
+  margin: 10% auto 0;
+}
+
+.error__title {
+  font-size: large;
+  font-weight: bold;
+}
+.error__text {
+margin: 1% 0 2%;
+}
+
+@media (max-width: 550px) {
+  .error-img{
+    width: 300px;
+  }
+}

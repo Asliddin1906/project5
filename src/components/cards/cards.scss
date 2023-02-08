@@ -1,0 +1,14 @@
+.title {
+  font-size: x-large;
+  margin-bottom: 5%;
+  font-weight: bolder;
+  
+}
+
+@media (max-width:1050px) {
+  .title {
+    text-align: center;
+  }
+  
+}
+

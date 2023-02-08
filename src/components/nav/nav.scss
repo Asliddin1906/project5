@@ -1,0 +1,98 @@
+  .nav__hamburger {
+    display: none;
+  }
+
+  .nav__list {
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    list-style: none;
+    display: flex;
+    width: 441px;
+    max-width: 441px;
+    text-decoration: none;
+  }
+
+  .nav__item {
+
+    margin-top: 20px;
+  }
+  .nav__link {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9a9a9a;
+  }
+
+
+    .nav__link:hover {
+      padding-bottom: 10px;
+      border-bottom: 2px solid #777777;
+    }
+
+    .nav__link--active {
+      padding-bottom: 10px;
+      border-bottom: 2px solid #777777;
+
+      color: #3d3d3d;
+    }
+
+    .nav__link:active {
+      text-decoration: underline;
+    }
+  
+    @media only screen and (max-width: 450px) {
+      .nav__hamburger {
+        margin-left: 10%;
+      }
+    }
+
+    @media only screen and (max-width: 850px) {
+      .nav__hamburger {
+        margin-left: 30%;
+      }
+    }
+
+
+@media only screen and (max-width: 1050px) {
+  .nav{
+    display: none;
+  }
+
+    .nav__hamburger {
+      display: block;
+      margin-left: 30%;
+      margin-top: 20px;
+    }
+
+    .nav__list {
+      width: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+
+      .nav__link:hover {
+        border: none;
+      }
+    
+  
+
+  .nav-active {
+    margin-top: 70px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    text-align: center;
+    width: 95%;
+    transition: 0.3s;
+    z-index: 1;
+    background-color: #fff;
+    padding-bottom: 100px;
+  }
+}

@@ -1,0 +1,35 @@
+.login-form {
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.login-form {
+
+  display: flex;
+  flex-direction: column;
+  width:250px ;
+}
+
+.login__title {
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+  font-size: 40px;
+}
+
+.form__box{
+  text-align: center;
+  
+}
+.login__btn , .login__inp {
+  width: 250px;
+  margin-top: 20px;
+  padding: 5px 10px;
+}
+.login__btn {
+  background-color: black;
+  color: #fff;
+}
+.login__inp {
+  background-color: #F4F4F4;
+  border: 0px;
+}

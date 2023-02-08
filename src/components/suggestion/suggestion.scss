@@ -1,0 +1,24 @@
+.suggestion-link {
+  display: flex;
+  align-items: center;
+  margin: 10% 0;
+}
+.suggestion-link__vector{
+  margin-left: 5%;
+  background-color: rgb(230, 229, 229);
+  padding: 2%;
+  border-radius: 5px;
+}
+.connections {
+  display: flex;
+}
+.suggestion-img {
+  margin-right: 10%;
+}
+
+@media (max-width:1050px) {
+.suggestion-link__vector{
+  padding: 1%;
+}
+  
+}

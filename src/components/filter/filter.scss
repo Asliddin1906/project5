@@ -1,0 +1,25 @@
+.filter {
+  width: 320px;
+  display: flex;
+  margin: auto 0;
+}
+.filter-inp{
+  background-color: #F4F4F4;
+  border-radius: 5px;
+  padding: 10px;
+}
+.inp-btn {
+  border-radius: 5px;
+  background-color: #FFBA9D;
+  border: 1px black solid;
+}
+
+
+
+
+@media (max-width:1050px) {
+  .filter {
+    margin: 5% auto; 
+    width: 250px;
+  }
+}
